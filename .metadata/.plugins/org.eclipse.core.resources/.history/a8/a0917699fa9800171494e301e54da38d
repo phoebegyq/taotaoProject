@@ -1,0 +1,22 @@
+package com.taotao.sso.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.taotao.common.utils.TaotaoResult;
+import com.taotao.sso.service.UserService;
+
+/**
+ * 注册接口开发：1.数据校验
+ * @author gyq
+ *
+ */
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public TaotaoResult checkData(String content, Integer type) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

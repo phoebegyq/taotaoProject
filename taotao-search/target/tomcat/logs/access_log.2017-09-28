@@ -1,0 +1,8 @@
+127.0.0.1 - - [28/Sep/2017:10:25:42 +0800] "GET /search/query?q=%E9%94%A4%E5%AD%90&page=1 HTTP/1.1" 200 438 http-bio-8083-exec-1 2614
+127.0.0.1 - - [28/Sep/2017:10:26:08 +0800] "GET /search/query?q=iphone+6&page=1 HTTP/1.1" 200 22312 http-bio-8083-exec-3 3633
+127.0.0.1 - - [28/Sep/2017:10:26:09 +0800] "GET /search/query?q=iphone+6&page=1 HTTP/1.1" 200 22312 http-bio-8083-exec-4 2368
+127.0.0.1 - - [28/Sep/2017:10:26:10 +0800] "GET /search/query?q=iphone+6&page=1 HTTP/1.1" 200 22312 http-bio-8083-exec-7 455
+127.0.0.1 - - [28/Sep/2017:10:26:18 +0800] "GET /search/query?q=iphone7&page=1 HTTP/1.1" 200 21488 http-bio-8083-exec-9 1508
+127.0.0.1 - - [28/Sep/2017:10:26:18 +0800] "GET /search/query?q=iphone7&page=1 HTTP/1.1" 200 21488 http-bio-8083-exec-10 937
+127.0.0.1 - - [28/Sep/2017:10:26:20 +0800] "GET /search/query?q=iphone7&page=1 HTTP/1.1" 200 21488 http-bio-8083-exec-3 359
+127.0.0.1 - - [28/Sep/2017:10:56:25 +0800] "GET /search/query?q=iphone+7&page=1 HTTP/1.1" 200 21488 http-bio-8083-exec-4 978

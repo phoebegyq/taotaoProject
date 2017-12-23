@@ -1,0 +1,208 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Cache-Control" content="max-age=300" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>${query} - 商品搜索 - 淘淘</title>
+<meta name="Keywords" content="java,淘淘java" />
+<meta name="description" content="在淘淘中找到了29910件java的类似商品，其中包含了“图书”，“电子书”，“教育音像”，“骑行运动”等类型的java的商品。" />
+<link rel="stylesheet" type="text/css" href="/css/base.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/css/psearch20131008.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/css/psearch.onebox.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/css/pop_compare.css" media="all" />
+<script type="text/javascript" src="/js/jquery-1.6.4.js"></script>
+
+<script type="text/javascript" async=""
+	src="./商品已成功加入购物车_files/conversion_async.js.下载"></script>
+<script type="text/javascript" async=""
+	src="./商品已成功加入购物车_files/wl.js.下载"></script>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta name="format-detection" content="telephone=no">
+
+<link rel="stylesheet" type="text/css"
+	href="./商品已成功加入购物车_files/saved_resource">
+<link rel="stylesheet" type="text/css"
+	href="./商品已成功加入购物车_files/addtocart-album.css">
+<title>商品已成功加入购物车</title>
+
+<script type="text/javascript">
+	window.pageConfig = {
+		compatible : true
+	};
+</script>
+<script type="text/javascript"
+	src="./商品已成功加入购物车_files/saved_resource(1)"></script>
+<link rel="stylesheet" type="text/css"
+	href="./商品已成功加入购物车_files/saved_resource(2)">
+<link rel="stylesheet" type="text/css"
+	href="./商品已成功加入购物车_files/share-rec.css">
+</head>
+<body>
+	<script type="text/javascript" src="/js/base-2011.js" charset="utf-8"></script>
+	<!-- header start -->
+	<jsp:include page="commons/header.jsp" />
+	<!-- header end -->
+
+	<script type="text/javascript">
+		var dataLayer = null;
+
+		//********过渡页切新版推荐-start***************
+		function getParam(paramName) {
+			var paramValue = "";
+			isFound = false;
+			if (this.location.search.indexOf("?") == 0
+					&& this.location.search.indexOf("=") > 1) {
+				arrSource = unescape(this.location.search).substring(1,
+						this.location.search.length).split("&");
+				i = 0;
+				while (i < arrSource.length && !isFound) {
+					if (arrSource[i].indexOf("=") > 0) {
+						if (arrSource[i].split("=")[0].toLowerCase() == paramName
+								.toLowerCase()) {
+							paramValue = arrSource[i].split("=")[1];
+							isFound = true;
+						}
+					}
+					i++;
+				}
+			}
+			return paramValue;
+		}
+		try {
+			var nr = getParam("nr");
+			var heads = document.getElementsByTagName("head");
+			var link = document.createElement("link");
+			var href = nr ? "//misc.360buyimg.com/user/cart/widget/??addtocart-201608/addtocart-201608.css"
+					: "//misc.360buyimg.com/user/cart/widget/??addtocart-2016/addtocart-2016.css?v=201609201019";
+			link.setAttribute("rel", "stylesheet");
+			link.setAttribute("type", "text/css");
+			link.setAttribute("href", href);
+			heads[0].appendChild(link);
+		} catch (e) {
+		}
+		//********过渡页切新版推荐-end***************
+	</script>
+	<noscript>&lt;iframe
+		src="//www.googletagmanager.com/ns.html?id=GTM-T947SH" height="0"
+		width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+	<script>
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start' : new Date().getTime(),
+				event : 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l='
+					+ l
+					: '';
+			j.async = true;
+			j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-T947SH');
+	</script>
+	<!--shortcut start-->
+
+	<div id="o-header-2013">
+		<div id="header-2013" style="display: none;"></div>
+	</div>
+	<!--shortcut end-->
+
+	</div>
+	<!--nav start-->
+
+	<!--nav end-->
+	<div class="main">
+		<div class="success-wrap">
+			<div class="w" id="result">
+				<div class="m succeed-box">
+					<div class="mc success-cont">
+						<div class="success-lcol">
+							<div class="success-top">
+								<b class="succ-icon"></b>
+								<h3 class="ftx-02">商品已成功加入购物车！</h3>
+							</div>
+							<div class="p-item">
+								<div class="p-img">
+									<a href="https://item.jd.com/4334250.html" target="_blank"></a>
+								</div>
+
+								<div class="clr"></div>
+							</div>
+						</div>
+						<div class="success-btns success-btns-new">
+							<div class="success-ad">
+								<a
+									href="https://cart.jd.com/addToCart.html?rcd=1&amp;pid=4334250&amp;pc=1&amp;nr=1&amp;rid=1505807188904&amp;em=#none"></a>
+							</div>
+							<div class="clr"></div>
+							<div>
+								<a class="btn-tobback" href="https://item.jd.com/4334250.html"
+									target="_blank" clstag="pageclick|keycount|201601152|3">查看商品详情</a><a
+									class="btn-addtocart"
+									href="https://cart.jd.com/cart.action?r=0.9622039536979474"
+									id="GotoShoppingCart" clstag="pageclick|keycount|201601152|4"><b></b>去购物车结算</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	</div>
+	<!--service start-->
+
+	<!--service end-->
+	<!--footer start-->
+	<jsp:include page="commons/footer.jsp" />
+	<!--footer end-->
+
+	<script type="text/javascript">
+		seajs.use([ "jdf/1.0.0/unit/globalInit/5.0.0/globalInit.js",
+				'jdf/1.0.0/ui/switchable/1.0.0/switchable' ], function(
+				globalInit) {
+			globalInit();
+			$('#similar, #promotion').switchable({
+				type : 'focus',
+				navItem : 's-item',
+				navSelectedClass : 'curr',
+				contentClass : 's-panel-main',//主体 
+				mainClass : 's-panel',
+				prevClass : 's-prev',
+				nextClass : 's-next',
+				hasPage : true,
+				autoPlay : false
+			});
+			$('.goods-list .item').hover(function() {
+				$(this).addClass('hover');
+			}, function() {
+				$(this).removeClass('hover');
+			})
+			$('#similar, #promotion').hover(function() {
+				$('.s-page', $(this)).show();
+			}, function() {
+				$('.s-page', $(this)).hide();
+			})
+		});
+	</script>
+	<script type="text/javascript">
+		(function() {
+			var ja = document.createElement('script');
+			ja.type = 'text/javascript';
+			ja.async = true;
+			ja.src = '//wl.jd.com/wl.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ja, s);
+		})();
+	</script>
+
+</body>
+</html>

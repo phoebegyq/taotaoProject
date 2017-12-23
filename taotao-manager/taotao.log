@@ -1,0 +1,62 @@
+2017-10-07 10:48:40,376 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/js/kindeditor-4.1.10/lang/zh_CN.js] is: -1
+2017-10-07 10:48:40,377 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-manager': assuming HandlerAdapter completed request handling
+2017-10-07 10:48:40,377 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2017-10-07 10:48:41,500 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/item-list]
+2017-10-07 10:48:41,500 [http-bio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item-list
+2017-10-07 10:48:41,500 [http-bio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public java.lang.String com.taotao.controller.PageController.ShowPage(java.lang.String)]
+2017-10-07 10:48:41,500 [http-bio-8080-exec-3] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'pageController'
+2017-10-07 10:48:41,500 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/item-list] is: -1
+2017-10-07 10:48:41,516 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Rendering view [org.springframework.web.servlet.view.JstlView: name 'item-list'; URL [/WEB-INF/jsp/item-list.jsp]] in DispatcherServlet with name 'taotao-manager'
+2017-10-07 10:48:41,516 [http-bio-8080-exec-3] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Added model object 'page' of type [java.lang.String] to request in view with name 'item-list'
+2017-10-07 10:48:41,517 [http-bio-8080-exec-3] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Forwarding to resource [/WEB-INF/jsp/item-list.jsp] in InternalResourceView 'item-list'
+2017-10-07 10:48:41,518 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2017-10-07 10:48:41,671 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/item/list]
+2017-10-07 10:48:41,671 [http-bio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/list
+2017-10-07 10:48:41,671 [http-bio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)]
+2017-10-07 10:48:41,671 [http-bio-8080-exec-3] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemController'
+2017-10-07 10:48:41,671 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/item/list] is: -1
+2017-10-07 10:48:41,671 [http-bio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2017-10-07 10:48:41,672 [http-bio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d76dd60]
+2017-10-07 10:48:41,672 [http-bio-8080-exec-3] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2017-10-07 10:48:41,677 [http-bio-8080-exec-3] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Registering transaction synchronization for JDBC Connection
+2017-10-07 10:48:41,677 [http-bio-8080-exec-3] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@37f225a] will be managed by Spring
+2017-10-07 10:48:41,677 [http-bio-8080-exec-3] [com.taotao.mapper.TbItemMapper.selectByExample_COUNT]-[DEBUG] ==>  Preparing: SELECT count(*) FROM tb_item 
+2017-10-07 10:48:41,677 [http-bio-8080-exec-3] [com.taotao.mapper.TbItemMapper.selectByExample_COUNT]-[DEBUG] ==> Parameters: 
+2017-10-07 10:48:41,680 [http-bio-8080-exec-3] [com.taotao.mapper.TbItemMapper.selectByExample_COUNT]-[DEBUG] <==      Total: 1
+2017-10-07 10:48:41,681 [http-bio-8080-exec-3] [com.taotao.mapper.TbItemMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, title, sell_point, price, num, barcode, image, cid, status, created, updated from tb_item limit ?,? 
+2017-10-07 10:48:41,681 [http-bio-8080-exec-3] [com.taotao.mapper.TbItemMapper.selectByExample]-[DEBUG] ==> Parameters: 0(Integer), 30(Integer)
+2017-10-07 10:48:41,690 [http-bio-8080-exec-3] [com.taotao.mapper.TbItemMapper.selectByExample]-[DEBUG] <==      Total: 30
+2017-10-07 10:48:41,690 [http-bio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d76dd60]
+2017-10-07 10:48:41,690 [http-bio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d76dd60]
+2017-10-07 10:48:41,690 [http-bio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d76dd60]
+2017-10-07 10:48:41,690 [http-bio-8080-exec-3] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2017-10-07 10:48:41,691 [http-bio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.taotao.common.pojo.EUDataGridResult@55f43479
+2017-10-07 10:48:41,691 [http-bio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.taotao.common.pojo.EUDataGridResult@55f43479
+2017-10-07 10:48:41,693 [http-bio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.taotao.common.pojo.EUDataGridResult@55f43479] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@281599fb]
+2017-10-07 10:48:41,693 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-manager': assuming HandlerAdapter completed request handling
+2017-10-07 10:48:41,693 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2017-10-07 10:48:48,014 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/item/list]
+2017-10-07 10:48:48,014 [http-bio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/list
+2017-10-07 10:48:48,014 [http-bio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)]
+2017-10-07 10:48:48,015 [http-bio-8080-exec-3] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemController'
+2017-10-07 10:48:48,015 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/item/list] is: -1
+2017-10-07 10:48:48,015 [http-bio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2017-10-07 10:48:48,016 [http-bio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@689a070]
+2017-10-07 10:48:48,016 [http-bio-8080-exec-3] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2017-10-07 10:48:48,016 [http-bio-8080-exec-3] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Registering transaction synchronization for JDBC Connection
+2017-10-07 10:48:48,016 [http-bio-8080-exec-3] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@37f225a] will be managed by Spring
+2017-10-07 10:48:48,016 [http-bio-8080-exec-3] [com.taotao.mapper.TbItemMapper.selectByExample_COUNT]-[DEBUG] ==>  Preparing: SELECT count(*) FROM tb_item 
+2017-10-07 10:48:48,017 [http-bio-8080-exec-3] [com.taotao.mapper.TbItemMapper.selectByExample_COUNT]-[DEBUG] ==> Parameters: 
+2017-10-07 10:48:48,019 [http-bio-8080-exec-3] [com.taotao.mapper.TbItemMapper.selectByExample_COUNT]-[DEBUG] <==      Total: 1
+2017-10-07 10:48:48,021 [http-bio-8080-exec-3] [com.taotao.mapper.TbItemMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, title, sell_point, price, num, barcode, image, cid, status, created, updated from tb_item limit ?,? 
+2017-10-07 10:48:48,022 [http-bio-8080-exec-3] [com.taotao.mapper.TbItemMapper.selectByExample]-[DEBUG] ==> Parameters: 0(Integer), 10(Integer)
+2017-10-07 10:48:48,026 [http-bio-8080-exec-3] [com.taotao.mapper.TbItemMapper.selectByExample]-[DEBUG] <==      Total: 10
+2017-10-07 10:48:48,028 [http-bio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@689a070]
+2017-10-07 10:48:48,028 [http-bio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@689a070]
+2017-10-07 10:48:48,028 [http-bio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@689a070]
+2017-10-07 10:48:48,028 [http-bio-8080-exec-3] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2017-10-07 10:48:48,029 [http-bio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.taotao.common.pojo.EUDataGridResult@22d6e89d
+2017-10-07 10:48:48,029 [http-bio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.taotao.common.pojo.EUDataGridResult@22d6e89d
+2017-10-07 10:48:48,030 [http-bio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.taotao.common.pojo.EUDataGridResult@22d6e89d] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@281599fb]
+2017-10-07 10:48:48,030 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-manager': assuming HandlerAdapter completed request handling
+2017-10-07 10:48:48,030 [http-bio-8080-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
